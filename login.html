@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Page</title>
+	<!--Font awesome cdn-->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<style>
+		.container{
+			background-image: url(leaves.jpg);
+			height: 90%;
+			width: 400px;
+			position:absolute;
+			left: 500px;
+			top:30px;
+			border-radius: 20px;
+
+		}
+		.dp{
+			height: 90px;
+			width: 90px;
+			position:relative;
+			left: 160px;
+			top:40px;
+			border-radius: 50%;
+			background-color:snow;
+			border : 5px solid white;	
+		}
+		.heading{
+			color: white;
+			position:relative;
+			left:160px;
+			top: 40px;
+		}
+		.username{
+			position:relative;
+			top: 100px;
+            left:100px;
+            background-color:white;
+            width: 220px;
+            height: 30px;
+            border-radius:10px; 
+            border: 2px solid deeppink;
+           	}
+   		.inputtype{
+   			border: none;
+   			position: relative;
+   			left: 20px;
+   			top:5px;
+   			outline: none;
+   			border-radius:10px;
+   		}
+   		.pass{
+   			position: relative;
+   			left: 100px;
+   			top: 150px;
+   			background: rgba(255,255,255,0.25);
+   			width: 220px;
+   			height: 30px;
+   			border: 2px solid white;
+   			border-radius:10px;
+   		}
+   		.password{
+   			border: none;
+   			position: relative;
+   			left: 20px;
+   			top: 5px;
+   			background: rgba(255,255,255,0.00);
+   			outline: none;
+   			color: black;
+   		}
+   		.horizontal{
+   			width:300px;
+   			position:relative;
+   			top: 200px;
+   			border: 2px solid ghostwhite;
+   			border-radius:10px;
+   		}
+   		.loginwith{
+   			position:absolute;
+   			top:500px;
+   			left:80px;
+   			align-content: center;
+   		}
+       li{
+       	display: inline;
+       	padding-left:10px;
+       	padding-right:20px;
+       }
+       i{
+            font-size:28px;
+            color:lavenderblush;
+       }
+       div.dp:hover{
+       	background-color:deeppink;
+       }
+       div.username:hover{
+       	background-color: deeppink;
+       }
+       .pass:hover{
+       	background-color:white;
+       }
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="dp">
+	</div>
+	<h1 class="heading">Log in</h1>
+	<div class="username">
+		<input class="inputtype" type="text" name="" placeholder="User Name">
+	</div>
+	<div class="pass">
+		<input class="password" type="Password" placeholder="Password">
+	</div>
+	<hr class="horizontal">
+	<div class="loginwith">
+		<ul>
+		<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="#"><i class="fab fa-google"></i></a></li>
+		<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+	</ul>
+	</div>
+</div>
+</body>
+</html>
